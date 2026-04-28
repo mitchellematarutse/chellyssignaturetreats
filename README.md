@@ -37,9 +37,9 @@ The success of the restaurant will be measured through:
 
 ## Target Audience
 
--**Families and parents
--**Event planners
--**Local residents
+Families and parents
+Event planners
+Local residents
 
 ### Key Features and Functionality
 
