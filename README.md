@@ -69,7 +69,8 @@ Contact Details (contactdetail.html): Offers several communication options such 
 
 ## Technical Implementation
 
-Using GitHub and VS Code, the website employs modern web technologies. It includes HTML5 for structure, CSS for styling and responsive design, and JavaScript for interactive features. The responsive framework ensures it is compatible with all devices and screen sizes
+Using GitHub and VS Code, the website employs modern web technologies. It includes HTML5 for structure, CSS for styling and responsive design, and JavaScript for interactive features. The responsive framework ensures it is compatible with all devices and screen sizes.
+
 Hosting is provided through 1Grid with the domain chellyssignaturetreats.co.za ensuring reliable South African-based service.
 
 Technical architecture supports future scalability and maintenance requirements.
