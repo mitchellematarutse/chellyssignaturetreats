@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body>
+            <img src="images/logo.png" alt="Chelly's Signature Treats" width="150" height="60"/>
+    <a href="index.html">Home</a>
+    <a href ="aboutus.html">About Us</a>
+    <a href="product.html">Product</a>
+    <a href="loyaltyandreward.html">Loyalty & Reward</a>
+    <a href="contactdetail.html">Contact detail</a>  
+    
+    <!-- PAGE HERO -->
+  <section class="page-hero">
+    <h1>Our Treats</h1>
+    <p>Handcrafted with love — order your favourites</p>
+  </section>
+ 
+  <!-- FILTER DROPDOWN BAR -->
+  <div class="filter-bar">
+ 
+    <button class="filter-btn active" onclick="filterCategory('all', this)">All</button>
+ 
+    <div class="dropdown-wrapper">
+      <button class="filter-btn" onclick="filterCategory('celebration-cakes', this)">
+        Celebration Cakes <span class="arrow">▼</span>
+      </button>
+      <div class="dropdown-menu">
+        <a href="#" onclick="scrollToProduct('caramel-velvet'); return false;">Caramel Velvet Cake</a>
+        <a href="#" onclick="scrollToProduct('chocolate-cake'); return false;">Chocolate Cake</a>
+        <a href="#" onclick="scrollToProduct('pinata-cake'); return false;">Piñata Birthday Cake</a>
+        <a href="#" onclick="scrollToProduct('rainbow-cake'); return false;">Rainbow Cake</a>
+        <a href="#" onclick="scrollToProduct('red-velvet'); return false;">Red Velvet Cake</a>
+        <a href="#" onclick="scrollToProduct('vanilla-cake'); return false;">Vanilla Cake</a>
+      </div>
+    </div>
+ 
+    <div class="dropdown-wrapper">
+      <button class="filter-btn" onclick="filterCategory('cupcakes', this)">
+        Cupcakes <span class="arrow">▼</span>
+      </button>
+      <div class="dropdown-menu">
+        <a href="#" onclick="scrollToProduct('cupcake'); return false;">Signature Cupcakes</a>
+      </div>
+    </div>
+ 
+    <div class="dropdown-wrapper">
+      <button class="filter-btn" onclick="filterCategory('cookies', this)">
+        Cookies <span class="arrow">▼</span>
+      </button>
+      <div class="dropdown-menu">
+        <a href="#" onclick="scrollToProduct('cookie'); return false;">Signature Cookies</a>
+      </div>
+    </div>
+ 
+    <div class="dropdown-wrapper">
+      <button class="filter-btn" onclick="filterCategory('brownies', this)">
+        Brownies <span class="arrow">▼</span>
+      </button>
+      <div class="dropdown-menu">
+        <a href="#" onclick="scrollToProduct('brownie'); return false;">Fudge Brownies</a>
+      </div>
+    </div>
+ 
+  </div>
+ 
+  <!-- PRODUCTS -->
+  <main class="products-section">
+ 
+    <!-- CELEBRATION CAKES -->
+    <section class="category-block" id="celebration-cakes">
+      <h2 class="category-heading">Celebration Cakes</h2>
+      <div class="category-divider"></div>
+      <div class="product-grid">
+ 
+        <div class="product-card" id="caramel-velvet cake">
+          <img src="images/caramelvelvetcake.jpg" width="200">
+          <div class="product-body">
+            <p class="product-name">Caramel Velvet Cake</p>
+            <p class="product-price">R 350.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" id="chocolate-cake">
+          <img src="images/chocolatecake.jpg" width="200">
+          <div class="product-body">
+            <p class="product-name">Chocolate Cake</p>
+            <p class="product-price">R 320.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" id="pinata-cake">
+          <img src="images/pinatacake.png" width="200">
+           <div class="product-body">
+            <p class="product-name">Piñata Birthday Cake</p>
+            <p class="product-price">R 420.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          <div class="product-body">
+            <p class="product-name">Piñata Birthday Cake</p>
+            <p class="product-price">R 420.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" id="rainbow-cake">
+                    <img src="images/rainbowcake.jpg" width="200">
+          <div class="product-body">
+            <p class="product-name">Rainbow Cake</p>
+            <p class="product-price">R 380.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" id="red-velvet">
+          <img src="images/redvelvetcake.png" width="200">
+          <div class="product-body">
+            <p class="product-name">Red Velvet Cake</p>
+            <p class="product-price">R 340.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" id="vanilla-cake">
+          <img src="images/vanillacake.png" width="200">
+          <div class="product-body">
+            <p class="product-name">Vanilla Cake</p>
+            <p class="product-price">R 300.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+      </div>
+    </section>
+ 
+    <!-- OTHER TREATS -->
+    <section class="category-block" id="other-treats">
+      <h2 class="category-heading">Other Treats</h2>
+      <div class="category-divider"></div>
+      <div class="product-grid">
+ 
+        <div class="product-card" id="cookie">
+          <img src="images/cookies.jpg" width="200">
+          <div class="product-body">
+            <p class="product-name">Signature Cookies</p>
+            <p class="product-price">R 80.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" id="cupcake">
+          <img src="images/cupcakes.png" width="200">
+          <div class="product-body">
+            <p class="product-name">Signature Cupcakes</p>
+            <p class="product-price">R 45.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+        <div class="product-card" id="brownie">
+          <img src="images/brownies.png" width="200">
+          <div class="product-body">
+            <p class="product-name">Fudge Brownies</p>
+            <p class="product-price">R 60.00</p>
+            <button class="btn-cart">Add to Cart</button>
+          </div>
+        </div>
+ 
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 <span>Chelly's Signature Treats</span> · Made with 🤎 · All rights reserved.</p>
+  </footer>
+ 
+
+</body>
+</html> 
