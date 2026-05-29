@@ -128,11 +128,14 @@ This phase focused on transforming the HTML foundation into a visually appealing
 - **Interactive Elements**: Added hover states and focus indicators for user experience
 - **Cross-browser Compatibility**: Ensured consistent appearance across major web browsers
 - **Performance Optimisation**: Created efficient CSS with minimal redundancy
+- 
 
 - ### Technical Specifications:
 - **CSS Framework**: Custom CSS with Grid and Flexbox layouts
 - **Typography**: Google Fonts integration (Great Vibes and Cinzel font for the headings, Open Sans and Montserrat for the body)
 - **Responsive Breakpoints**: Mobile-first approach with progressive enhancement
+-  **Browser Support**: Modern browsers with graceful degradation
+- **Code Organisation**: Modular CSS structure with clear commenting
 
 ## Responsiveness Testing and Iteration Across Devices
 - These screenshots show how the site responds on common devices after iterative testing and adjustments.
@@ -163,5 +166,4 @@ TikTok chellyssignaturetreats https://www.tiktok.com/ChellysSignatureTreats
 
 
 
-- **Browser Support**: Modern browsers with graceful degradation
-- **Code Organisation**: Modular CSS structure with clear commenting
+
