@@ -141,6 +141,14 @@ These screenshots show how the site responds on common devices after iterative t
 ### Desktop
       <img src="images/desktop.png" alt="Chelly's Signature Treat on (desktop)" width="520"/>
 
+## Responsiveness Testing and Iteration Across Devices
+
+These screenshots show how the site responds on common devices after iterative testing and adjustments.
+
+### Desktop
+
+<img width="1366" height="728" alt="desktop" src="https://github.com/user-attachments/assets/a0acac74-6744-4547-bba3-c470dfa1b048" />
+
 
 - **Browser Support**: Modern browsers with graceful degradation
 - **Code Organisation**: Modular CSS structure with clear commenting
