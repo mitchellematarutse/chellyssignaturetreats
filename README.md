@@ -98,6 +98,19 @@ This phase focused on transforming the HTML foundation into a visually appealing
 -  Vanilla Bean (F9F5FO)
 -  Set default styling for consistent font family, sizes, and spacing
 
+## Responsiveness Testing and Iteration Across Devices
+
+These screenshots show how the site responds on common devices after iterative testing and adjustments.
+
+### Desktop
+<table>
+  <tr>
+    <td align="center">
+      <strong>Lenovo laptop</strong><br/>
+      <img src="images/desktop.png" alt="Chelly's Signature Treat on (desktop)" width="520"/>
+  </tr>
+</table>
+
   ### Week 7: Advanced CSS and Layout Development
 - Implemented CSS Grid and Flexbox layouts for structured content presentation
 - Created responsive navigation menu with hover effects
