@@ -43,9 +43,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -Update about.html
 
--Update product.html
+-Added more pictures and information on product.html
 
 -Update loyaltyandreward.html
 
 -Update contact.html
+
+- Create a new CSS file (e.g., `style.css`) and link it to your HTML files on the website
+
+-Set default styles for your entire website, such as font family, font size, colour scheme, and
+margin/padding.
+
+-Use a CSS reset to ensure consistent styling across different brows
+
+-Use the `srcset` and `sizes` attributes to provide different image resolutions for different
+screen sizes.
+
+-Use responsive image techniques like the `picture` element and `srcset` attribute to
+optimise image loading.
+
+-Use browser developer tools to test your website on different devices and screen sizes
+
+-Use `%` for widths and heights to make elements responsive.
 
