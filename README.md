@@ -134,19 +134,13 @@ This phase focused on transforming the HTML foundation into a visually appealing
 - **Typography**: Google Fonts integration (Great Vibes and Cinzel font for the headings, Open Sans and Montserrat for the body)
 - **Responsive Breakpoints**: Mobile-first approach with progressive enhancement
 
-
 ## Responsiveness Testing and Iteration Across Devices
 
 These screenshots show how the site responds on common devices after iterative testing and adjustments.
 
 ### Desktop
-<table>
-  <tr>
-    <td align="center">
-      <strong>Lenovo laptop</strong><br/>
       <img src="images/desktop.png" alt="Chelly's Signature Treat on (desktop)" width="520"/>
-  </tr>
-</table>
+
 
 - **Browser Support**: Modern browsers with graceful degradation
 - **Code Organisation**: Modular CSS structure with clear commenting
