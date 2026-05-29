@@ -84,4 +84,54 @@ The content strategy emphasizes local relevance whilst maintaining professional 
 ### Phase 1: Foundation (Weeks 1 - 4)
 During the first week I conducted organization research, created an initial file structure. set up GitHub repository. In week two, I created wireframes for all pages, sourced legal images and assets and organized content. During the third, I created a HTML Structure for all the 5 pages and integrated the content into the HTML files. In week four, I set up the private GitHub, pushed to Remote repository and submitted Part 1
 
+## Phase 2: Visual Design and Responsive Development (Weeks 5 - 9)
 
+This phase focused on transforming the HTML foundation into a visually appealing and responsive website using CSS styling techniques.
+
+### Week 6: CSS Foundation and Base Styling
+- Created external CSS stylesheet (`css/style.css`) and linked to all HTML pages
+- Implemented CSS reset for cross-browser consistency
+- Established base typography using Google Fonts ( Great Vibes and Cinzel font for the headings, Open Sans and Montserrat for the body )
+-  Applied colour scheme based on bakery aesthetic
+-  Dusty Raspberry Jam (#A24857)
+-  Pale Blush (#FADADD)  
+-  Vanilla Bean (F9F5FO)
+-  Set default styling for consistent font family, sizes, and spacing
+
+  ### Week 7: Advanced CSS and Layout Development
+- Implemented CSS Grid and Flexbox layouts for structured content presentation
+- Created responsive navigation menu with hover effects
+- Applied visual styling including backgrounds, borders, and shadows
+- Developed pseudo-classes for interactive elements (:hover, :focus, :active states)
+- Styled all page components including headers, main content areas, and footers
+
+### Week 8: Responsive Design Implementation
+- Implemented media queries for multiple breakpoints:
+-  Desktop: 1200px and above
+- Tablet: 768px - 1199px
+- Mobile: 320px - 767px
+   - Created responsive navigation menu that adapts on mobile devices
+  - Optimised images for different screen sizes and resolutions
+  - Adjusted typography scales for readability across devices
+  - Modified grid layouts to stack appropriately on smaller screens
+
+  ### Week 9: Final CSS Refinement and Testing
+- Conducted cross-browser compatibility testing (Chrome, Firefox, Safari, Edge)
+- Performed responsive design testing across multiple devices and screen sizes
+- Refined spacing, alignments, and visual hierarchy
+- Optimised CSS code for performance and maintainability
+- Validated CSS code and resolved styling conflicts
+
+### Key Achievements in Phase 2:
+- **Responsive Design**: Website adapts to desktop, tablet, and mobile devices
+- **Visual Identity**: Implemented colour scheme and typography reflecting Italian restaurant branding
+- **Interactive Elements**: Added hover states and focus indicators for user experience
+- **Cross-browser Compatibility**: Ensured consistent appearance across major web browsers
+- **Performance Optimisation**: Created efficient CSS with minimal redundancy
+
+- ### Technical Specifications:
+- **CSS Framework**: Custom CSS with Grid and Flexbox layouts
+- **Typography**: Google Fonts integration (Great Vibes and Cinzel font for the headings, Open Sans and Montserrat for the body)
+- **Responsive Breakpoints**: Mobile-first approach with progressive enhancement
+- **Browser Support**: Modern browsers with graceful degradation
+- **Code Organisation**: Modular CSS structure with clear commenting
