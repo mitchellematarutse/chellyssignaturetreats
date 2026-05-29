@@ -97,7 +97,7 @@ This phase focused on transforming the HTML foundation into a visually appealing
 -  Pale Blush (#FADADD)  
 -  Vanilla Bean (F9F5FO)
 -  Set default styling for consistent font family, sizes, and spacing
-
+  
   ### Week 7: Advanced CSS and Layout Development
 - Implemented CSS Grid and Flexbox layouts for structured content presentation
 - Created responsive navigation menu with hover effects
@@ -128,10 +128,42 @@ This phase focused on transforming the HTML foundation into a visually appealing
 - **Interactive Elements**: Added hover states and focus indicators for user experience
 - **Cross-browser Compatibility**: Ensured consistent appearance across major web browsers
 - **Performance Optimisation**: Created efficient CSS with minimal redundancy
+- 
 
 - ### Technical Specifications:
 - **CSS Framework**: Custom CSS with Grid and Flexbox layouts
 - **Typography**: Google Fonts integration (Great Vibes and Cinzel font for the headings, Open Sans and Montserrat for the body)
 - **Responsive Breakpoints**: Mobile-first approach with progressive enhancement
-- **Browser Support**: Modern browsers with graceful degradation
+-  **Browser Support**: Modern browsers with graceful degradation
 - **Code Organisation**: Modular CSS structure with clear commenting
+
+## Responsiveness Testing and Iteration Across Devices
+- These screenshots show how the site responds on common devices after iterative testing and adjustments.
+
+### Desktop
+<img width="1366" height="728" alt="desktop" src="https://github.com/user-attachments/assets/a0acac74-6744-4547-bba3-c470dfa1b048" />
+
+## References
+Abela, J. C., 2010. Freepik. [Online] Available at: https://www.freepik.com/ [Accessed 19 April 2026].
+
+Braxmeier, H., 2010. Pixabay. [Online] Available at: https://pixabay.com/ [Accessed 19 April 2026].
+
+Crossland, D., 2010. Google Font. [Online] Available at: https://fonts.google.com/ [Accessed 5 April 2026].
+
+F, B., n.d. Coolor. [Online] Available at: https://coolors.co/palettes/popular [Accessed 1 April 2026].
+
+J.C, A., n.d. Freepik. [Online] Available at: https://www.freepik.com/ [Accessed 19 April 2026].
+
+T, V., 1997. 1Grid. [Online] Available at: https://1grid.co.za/domains/domain-name-registration/ [Accessed 13 April 2026].
+
+Instagram, 2026 chellyssignaturetreats https://www.instagram.com/ChellysSignatureTreats
+
+Meta (Facebook), 2026 Chelly's Signature Treats https://www.facebook.com/ChellysSignatureTreats
+
+TikTok chellyssignaturetreats https://www.tiktok.com/ChellysSignatureTreats
+
+
+
+
+
+
