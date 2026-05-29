@@ -110,10 +110,10 @@ This phase focused on transforming the HTML foundation into a visually appealing
 -  Desktop: 1200px and above
 - Tablet: 768px - 1199px
 - Mobile: 320px - 767px
-   - Created responsive navigation menu that adapts on mobile devices
-  - Optimised images for different screen sizes and resolutions
-  - Adjusted typography scales for readability across devices
-  - Modified grid layouts to stack appropriately on smaller screens
+- Created responsive navigation menu that adapts on mobile devices
+- Optimised images for different screen sizes and resolutions
+- Adjusted typography scales for readability across devices
+- Modified grid layouts to stack appropriately on smaller screens
 
   ### Week 9: Final CSS Refinement and Testing
 - Conducted cross-browser compatibility testing (Chrome, Firefox, Safari, Edge)
