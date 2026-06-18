@@ -262,13 +262,13 @@ section {
 /* ─────────────────────────────────────────
    7. NAVIGATION
 ───────────────────────────────────────── */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: var(--white);
-  border-bottom: 1px solid var(--blush-dark);
-  box-shadow: var(--shadow-sm);
+.header-container {
+ display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: #ffffff;      
+  padding: 15px 40px;             
+  box-sizing: border-box;
 }
 
 nav {
@@ -295,8 +295,8 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: 0;
-  align-items: center;
+  gap: 25px;
+  list-style: none;
 }
 
 .nav-links li a {
@@ -306,15 +306,13 @@ nav {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-mid);
-  padding: 0.5rem 1rem;
-  border-radius: var(--radius-sm);
   transition: background var(--transition), color var(--transition);
   text-decoration: none;
 }
 
 .nav-links li a:hover,
 .nav-links li a[aria-current="page"] {
-  background: var(--blush);
+  background: none;
   color: var(--raspberry);
 }
 
@@ -1757,9 +1755,10 @@ legend {
   }
 
   .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.2rem;
+    display: flex;
+  gap: 25px;
+  list-style: none;
+
   }
 
   .nav-links li a {
