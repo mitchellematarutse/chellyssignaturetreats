@@ -267,7 +267,8 @@ section {
   justify-content: space-between; 
   align-items: center;
   background-color: #ffffff;      
-  padding: 15px 40px;             
+  padding: 15px 40px; 
+  width: 100%;     
   box-sizing: border-box;
 }
 
@@ -297,6 +298,8 @@ nav {
   display: flex;
   gap: 25px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li a {
