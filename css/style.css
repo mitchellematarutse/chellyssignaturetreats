@@ -1,7 +1,7 @@
 /* ============================================================
    CHELLY'S SIGNATURE TREATS — style.css
-   Covers: index.html · about.html · products.html
-           loyalty.html · contact.html
+   Covers: index.html · aboutus.html · product.html
+           loyaltyandreward.html · contactdetail.html
    ============================================================ */
 /* ─────────────────────────────────────────
    1. GOOGLE FONTS IMPORT
@@ -624,7 +624,6 @@ footer nav ul li a:hover {
   height: 44px;
   margin: 0 auto var(--space-sm);
   object-fit: contain;
-  <filter-value-list/>
 }
 
 .promise-item h3 {
@@ -860,8 +859,6 @@ footer nav ul li a:hover {
   width: 38px;
   height: 38px;
   margin-bottom: var(--space-sm);
-    <filter-value-list/>
-
 }
 
 .value-card h3 {
@@ -999,7 +996,6 @@ footer nav ul li a:hover {
     display: flex;
   gap: 0.6rem;
   flex-wrap: wrap;
-  max-width: var(--max-width);
   margin: var(--space-lg) auto 0;
   padding: 0 2rem;
 }
@@ -1030,8 +1026,7 @@ footer nav ul li a:hover {
 ───────────────────────────────────────── */
 .product-category-section {
   padding: var(--space-lg) 2rem;
-  max-width: var(--max-width);
-  margin: 0 auto;
+  
 }
 
 .product-category-section h2 {
