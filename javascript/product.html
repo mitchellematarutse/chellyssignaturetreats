@@ -31,7 +31,26 @@
     <h1>Our Treats</h1>
     <p>Handcrafted with love — order your favourites</p>
   </section>
- <!-- ═══════════════════════════════════════════
+
+  
+      <!-- ═══════════════════════════════════════════
+           SEARCH BAR
+      ═══════════════════════════════════════════ -->
+      <div class="search-bar-wrap">
+        <form class="search-form" role="search" onsubmit="return false;">
+          <label for="product-search" class="sr-only">Search treats</label>
+          <input
+            type="search"
+            id="product-search"
+            placeholder="Search treats — e.g. brownie, cupcake, caramel..."
+            autocomplete="off"
+          />
+          <span class="search-icon" aria-hidden="true">&#128269;</span>
+        </form>
+        <p id="search-results-count" class="search-results-count"></p>
+      </div>
+ 
+      <!-- ═══════════════════════════════════════════
            FILTER BAR
       ═══════════════════════════════════════════ -->
       <nav class="filter-bar" aria-label="Product category filter">
@@ -41,6 +60,13 @@
         <button class="filter-btn" data-filter="cookies">Cookies</button>
         <button class="filter-btn" data-filter="brownies">Brownies</button>
       </nav>
+ 
+      <!-- No results message (hidden by default, shown via JS) -->
+      <p id="no-results-message" class="no-results-message" hidden>
+        No treats match your search. Try a different keyword, or
+        <a href="#" id="clear-search-link">clear your search</a>.
+      </p>
+ <!-- ═══════════════════════════════════════════
  
       <!-- ═══════════════════════════════════════════
            CELEBRATION CAKES
