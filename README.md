@@ -181,7 +181,7 @@ This phase focused on transforming the HTML foundation into a visually appealing
 
 -Update contact.html
 
-- Create a new CSS file (e.g., `style.css`) and link it to your HTML files on the website
+-Create a new CSS file (e.g., `style.css`) and link it to your HTML files on the website
 
 -Set default styles for your entire website, such as font family, font size, colour scheme, and
 margin/padding.
@@ -197,6 +197,7 @@ optimise image loading.
 -Use browser developer tools to test your website on different devices and screen sizes
 
 -Use `%` for widths and heights to make elements responsive.
+
 
 
 
