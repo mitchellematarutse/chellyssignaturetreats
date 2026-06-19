@@ -49,7 +49,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -Update contact.html
 
-- Create a new CSS file (e.g., `style.css`) and link it to your HTML files on the website
+-Create a new CSS file (e.g., `style.css`) and link it to your HTML files on the website
 
 -Set default styles for your entire website, such as font family, font size, colour scheme, and
 margin/padding.
@@ -66,3 +66,18 @@ optimise image loading.
 
 -Use `%` for widths and heights to make elements responsive.
 
+## Phase 3 
+
+-Fixed syntax error 
+
+-Fixing the syntax error breaking page width
+
+-Changed the grid layout to force a 3-column structure for product cards
+
+-Fixed syntax error in .product-category-section padding rule 
+
+-Fix the selector typo (missing dot) 
+
+-Grouped navigation links inside a ul block in product.html
+
+-Enabled justify-content: space-between to push navigation to the far left
