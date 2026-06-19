@@ -22,11 +22,15 @@ This repository was updated to fully comply with the rubric for Interactive Elem
 
 - Forms & Validation 
   -Enquiry controls (the gift form on loyalty.html) has Full Name, Email, Phone, Delivery Address, a Treat dropdown (<select>), a personal Message (<textarea>), and Sender Name. All have proper <label> tags
+  
  - initGiftForm() in script.js checks required fields aren't empty and validates the email format before allowing submission.
+ - 
  - JavaScript alert() popup saying "Thank you! Your sweet surprise is on its way" and clears the form
+
  
 - Contact controls (contact.html)
   - Name, Email, Phone, Subject dropdown, and Message, each with labels.
+
   
 - Contact validation
   - initContactForm() checks required fields and validates email format.
