@@ -994,16 +994,108 @@ footer nav ul li a:hover {
 
 
 /* ─────────────────────────────────────────
-   21. PRODUCTS — FILTER BAR
+   20b. PRODUCTS — SEARCH BAR
 ───────────────────────────────────────── */
-.filter-bar {
-    display: flex;
-  gap: 0.6rem;
-  flex-wrap: wrap;
+.search-bar-wrap {
+  max-width: var(--max-width);
   margin: var(--space-lg) auto 0;
   padding: 0 2rem;
 }
-
+ 
+.search-form {
+  position: relative;
+  max-width: 480px;
+}
+ 
+.search-form input[type="search"] {
+  width: 100%;
+  padding: 0.85rem 1rem 0.85rem 2.8rem;
+  border: 1.5px solid var(--blush-dark);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  background: var(--white);
+  outline: none;
+  transition: border-color var(--transition), box-shadow var(--transition);
+  appearance: none;
+  -webkit-appearance: none;
+}
+ 
+.search-form input[type="search"]::-webkit-search-cancel-button {
+  cursor: pointer;
+}
+ 
+.search-form input[type="search"]:focus {
+  border-color: var(--raspberry);
+  box-shadow: 0 0 0 3px rgba(162, 72, 87, 0.1);
+}
+ 
+.search-form input[type="search"]::placeholder {
+  color: var(--text-light);
+}
+ 
+.search-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.95rem;
+  pointer-events: none;
+  opacity: 0.6;
+}
+ 
+.search-results-count {
+  font-family: var(--font-label);
+  font-size: 0.78rem;
+  color: var(--sage-dark);
+  margin-top: 0.6rem;
+  min-height: 1.2em;
+}
+ 
+.no-results-message {
+  max-width: var(--max-width);
+  margin: var(--space-md) auto 0;
+  padding: 0 2rem;
+  font-size: 0.9rem;
+  color: var(--text-mid);
+  text-align: center;
+  background: var(--blush);
+  border-radius: var(--radius-md);
+  padding: 1.4rem 2rem;
+}
+ 
+.no-results-message a {
+  color: var(--raspberry);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+ 
+/* Visually hidden label for accessibility (search label) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+ 
+/* ─────────────────────────────────────────
+   21. PRODUCTS — FILTER BAR
+───────────────────────────────────────── */
+.filter-bar {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  max-width: var(--max-width);
+  margin: var(--space-md) auto 0;
+  padding: 0 2rem;
+}
+ 
 .filter-btn {
   font-family: var(--font-label);
   font-size: 0.75rem;
@@ -1017,13 +1109,13 @@ footer nav ul li a:hover {
   color: var(--raspberry);
   transition: background var(--transition), color var(--transition);
 }
-
+ 
 .filter-btn.active,
 .filter-btn:hover {
   background: var(--raspberry);
   color: var(--white);
 }
-
+ 
 
 /* ─────────────────────────────────────────
    22. PRODUCTS — CATEGORY SECTIONS & GRID
