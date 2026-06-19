@@ -137,28 +137,26 @@ This phase focused on transforming the HTML foundation into a visually appealing
 -  **Browser Support**: Modern browsers with graceful degradation
 - **Code Organisation**: Modular CSS structure with clear commenting
 
-  ## Phase 3avaScript Interactivity and Final Enhancements (Weeks 10 - 12)
+  ## Phase 3 JavaScript Interactivity and Final Enhancements (Weeks 10 - 12)
   
   - This final phase focused on implementing advanced JavaScript functionality, interactive features, and comprehensive enhancements to create a fully functional, user-friendly website experience.
     
   - ** Week 10: JavaScript Foundation and Core Features**
     
   - ** Week 11: Interactive Elements and User Experience**
-  - 
-  - Filter buttons (products.html)- clicking “cakes, cupcakes,etc” actually shows/hides products and scrolls to that section
+  
+  - **Filter buttons (products.html)- clicking “cakes, cupcakes,etc” actually shows/hides products and scrolls to that section
     
-  - Add to cart buttons- clicking one changes the button next to “Added” for 1,2 seconds then reverts. It also logs to the browser console
+  - **Add to cart buttons- clicking one changes the button next to “Added” for 1,2 seconds then reverts. It also logs to the browser console
  
-  - Form submissions (gift form+contact form” typing into the fields and clicking submit triggers real validation. If you leave a required field empty or type a bad email, you’ll get an alert listing whats writing. 
+  -** Form submissions (gift form+contact form” typing into the fields and clicking submit triggers real validation. If you leave a required field empty or type a bad email, you’ll get an alert listing whats writing. 
 If you everything’s filled in correctly, you’ll get a thank you alert and the form closes
 
--Added category accordions for collapsible menu sections
+-**Added category accordions for collapsible menu sections
 
--Added a search bar input box above the category filter buttons, plus a hidden “no results” message that appears automatically when nothing matches 
+-**Added a search bar input box above the category filter buttons, plus a hidden “no results” message that appears automatically when nothing matches 
 
--Implemented smooth scroll animations for enhanced user experience
-
-
+-**Implemented smooth scroll animations for enhanced user experience
 
 
   ## Phase 1 
