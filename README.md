@@ -167,16 +167,16 @@ If you everything’s filled in correctly, you’ll get a thank you alert and th
 *Enquiry validation
 *Contact controls and contact validatioN
 *Removed debug styles and polished final code
-- **Part 3 Submission**: 19 June 2026
+*Part 3 Submission**: 19 June 2026
 
 ### Key Achievements in Phase 3:
-- **Interactive searchbar**
-- **Dynamic Content Loading**
-- **Enhanced User Experience**
-- **Form Validation**
-- **SEO Optimisation**
-- **Accessibility**
-- **Performance**
+ **Interactive searchbar
+ **Dynamic Content Loading
+ **Enhanced User Experience
+ **Form Validation
+ **SEO Optimisation
+ **Accessibility
+ **Performance
   
 ## Changelog
 
