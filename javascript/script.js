@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
  
  
 /* ─────────────────────────────────────────
-   1. PRODUCT FILTER (products.html)
+   1. PRODUCT FILTER (product.html)
    Filters product cards by category when a
    filter button is clicked.
 ───────────────────────────────────────── */
@@ -59,7 +59,7 @@ function initProductFilter() {
  
  
 /* ─────────────────────────────────────────
-   2. ADD TO CART BUTTONS (products.html, index.html)
+   2. ADD TO CART BUTTONS (product.html, index.html)
    Simple cart counter stored in memory for
    the current session.
 ───────────────────────────────────────── */
@@ -152,7 +152,7 @@ function initGiftForm() {
  
  
 /* ─────────────────────────────────────────
-   4. CONTACT FORM VALIDATION (contact.html)
+   4. CONTACT FORM VALIDATION (contactdetail.html)
 ───────────────────────────────────────── */
 function initContactForm() {
   const contactForm = document.querySelector('.contact-form');
