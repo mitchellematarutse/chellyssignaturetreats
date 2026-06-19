@@ -232,7 +232,8 @@ optimise image loading.
 
 -Use `%` for widths and heights to make elements responsive.
 
-Phase 3
+## Phase 3
+
 -Fixed syntax error
 
 -Fixing the syntax error breaking page width
