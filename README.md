@@ -137,7 +137,7 @@ This phase focused on transforming the HTML foundation into a visually appealing
 -  **Browser Support**: Modern browsers with graceful degradation
 - **Code Organisation**: Modular CSS structure with clear commenting
 
-  ## Phase 3 JavaScript Interactivity and Final Enhancements (Weeks 10 - 12)
+  ## Phase 3: JavaScript Interactivity and Final Enhancements (Weeks 10 - 12)
   
   - This final phase focused on implementing advanced JavaScript functionality, interactive features, and comprehensive enhancements to create a fully functional, user-friendly website experience.
     
