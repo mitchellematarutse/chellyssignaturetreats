@@ -161,21 +161,35 @@ If you everything’s filled in correctly, you’ll get a thank you alert and th
 •Implemented smooth scroll animations for enhanced user experience
 
 ### Week 12: SEO, Accessibility, and Final Polish
+
 *Implemented SEO enhancements (meta tags, canonical links, keyword injection)
+
 *Implemented Meta description
+
 *Enquiry controls (the gift form on loyalty.html)
+
 *Enquiry validation
-*Contact controls and contact validatioN
+
+*Contact controls and contact validation
+
 *Removed debug styles and polished final code
+
 *Part 3 Submission**: 19 June 2026
 
 ### Key Achievements in Phase 3:
+
  **Interactive searchbar
+ 
  **Dynamic Content Loading
+ 
  **Enhanced User Experience
+ 
  **Form Validation
+ 
  **SEO Optimisation
+ 
  **Accessibility
+ 
  **Performance
   
 ## Changelog
