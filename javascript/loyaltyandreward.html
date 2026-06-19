@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Chelly's Signature Treats</title>
+</head>
+<header class="header-container">
+  <div class="nav-logo">
+    <a href="index.html">
+    </a>
+  </div>
+
+<body>
+          <img src="images/logo.png" alt="Chelly's Signature Treats" width="150" height="60"/>
+    </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="loyaltyandreward.html">Loyalty &amp; Rewards</a></li>
+          <li><a href="contactdetail.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+ 
+      <!-- ═══════════════════════════════════════════
+           PAGE HERO
+      ═══════════════════════════════════════════ -->
+      <section class="page-hero">
+        <h1>Loyalty &amp; Rewards</h1>
+        <p>
+          Every treat you enjoy earns you points. Accumulate, redeem, and send sweet
+          surprises to the people who matter most.
+        </p>
+      </section>
+ 
+      <!-- ═══════════════════════════════════════════
+           POINTS SUMMARY BAND
+      ═══════════════════════════════════════════ -->
+      <section class="points-summary">
+        <div class="points-grid">
+ 
+          <div class="points-card">
+            <p class="points-number">1 pt</p>
+            <p class="points-label">earned per R10 spent</p>
+          </div>
+ 
+          <div class="points-card">
+            <p class="points-number">100</p>
+            <p class="points-label">points = R10 off your order</p>
+          </div>
+ 
+          <div class="points-card">
+            <p class="points-number">500</p>
+            <p class="points-label">points = 20% off any order</p>
+          </div>
+ 
+          <div class="points-card">
+            <p class="points-number">1000</p>
+            <p class="points-label">points = a free Signature Treat Box</p>
+          </div>
+ 
+        </div>
+      </section>
+ 
+      <!-- ═══════════════════════════════════════════
+           HOW IT WORKS
+      ═══════════════════════════════════════════ -->
+      <section class="how-it-works">
+        <p class="section-label">Getting Started</p>
+        <h2>How It Works</h2>
+ 
+        <ol class="steps-list">
+ 
+          <li class="step">
+            <h3>Place Your Order</h3>
+            <p>
+              Browse our menu, add your favourite treats to your cart, and complete your
+              purchase. Every rand you spend earns you loyalty points automatically.
+            </p>
+          </li>
+ 
+          <li class="step">
+            <h3>Watch Your Points Grow</h3>
+            <p>
+              Earn 1 point for every R10 spent. Special occasions and seasonal promotions
+              often include bonus point events — keep an eye on our social media for
+              announcements.
+            </p>
+          </li>
+ 
+          <li class="step">
+            <h3>Redeem Your Rewards</h3>
+            <p>
+              At checkout, apply your points balance to unlock discounts, free treats, or
+              send a gift to someone special. Choose how you want to use them — it's
+              your reward.
+            </p>
+          </li>
+ 
+          <li class="step">
+            <h3>Send a Sweet Surprise</h3>
+            <p>
+              Use your points to send a beautifully packaged Chelly's treat box directly
+              to a friend or loved one. Fill in their details below and we'll handle the rest.
+            </p>
+          </li>
+ 
+        </ol>
+      </section>
+ 
+      <!-- ═══════════════════════════════════════════
+           SEND A SWEET SURPRISE — GIFT FORM
+      ═══════════════════════════════════════════ -->
+      <section class="gift-form-section">
+        <h2>Send a Sweet Surprise</h2>
+        <p>
+          Surprise someone special with a Chelly's treat. Fill in their details below,
+          choose their treats, add a personal note, and we'll deliver joy to their door.
+        </p>
+ 
+        <div class="points-balance">
+          <span>Your Points Balance</span>
+          <strong>500 points — 20% off</strong>
+        </div>
+ 
+        <form class="gift-form" action="#" method="post">
+ 
+          <fieldset>
+            <legend>Recipient's Information</legend>
+ 
+            <div class="form-row">
+              <div class="form-group">
+                <label for="recipient-name">Full Name</label>
+                <input
+                  type="text"
+                  id="recipient-name"
+                  name="recipient_name"
+                  placeholder="e.g. Thabo Nkosi"
+                  required
+                />
+              </div>
+ 
+              <div class="form-group">
+                <label for="recipient-email">Email Address</label>
+                <input
+                  type="email"
+                  id="recipient-email"
+                  name="recipient_email"
+                  placeholder="e.g. thabo@email.com"
+                  required
+                />
+              </div>
+            </div>
+ 
+            <div class="form-row">
+              <div class="form-group">
+                <label for="recipient-phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="recipient-phone"
+                  name="recipient_phone"
+                  placeholder="e.g. 082 123 4567"
+                />
+              </div>
+ 
+              <div class="form-group">
+                <label for="recipient-address">Delivery Address</label>
+                <input
+                  type="text"
+                  id="recipient-address"
+                  name="recipient_address"
+                  placeholder="Street address, suburb, Cape Town"
+                  required
+                />
+              </div>
+            </div>
+          </fieldset>
+ 
+          <fieldset>
+            <legend>Gift Details</legend>
+ 
+            <div class="form-group">
+              <label for="treat-selection">Select Treats</label>
+              <select id="treat-selection" name="treat_selection" required>
+                <option value="" disabled selected>— Choose a treat or box —</option>
+                <option value="signature-treat-box">Signature Treat Box (R280)</option>
+                <option value="caramel-velvet-cake">Caramel Velvet Cake (from R350)</option>
+                <option value="triple-chocolate-cake">Triple Chocolate Cake (from R380)</option>
+                <option value="cupcakes-vanilla">Cupcake Dozen — Vanilla (R280)</option>
+                <option value="cupcakes-strawberry">Cupcake Dozen — Strawberry (R310)</option>
+                <option value="cookie-box">Cookie Box — Assorted (R190)</option>
+                <option value="brownie-box">Brownie Box — Classic (R220)</option>
+                <option value="macaron-box">Macaron Box x12 (R240)</option>
+              </select>
+            </div>
+ 
+            <div class="form-group">
+              <label for="gift-message">Personal Message (optional)</label>
+              <textarea
+                id="gift-message"
+                name="gift_message"
+                rows="4"
+                placeholder="Write a sweet note to the recipient — we'll print it on a card inside the box."
+              ></textarea>
+            </div>
+ 
+            <div class="form-group">
+              <label for="sender-name">Your Name (Sender)</label>
+              <input
+                type="text"
+                id="sender-name"
+                name="sender_name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+          </fieldset>
+ 
+          <button type="submit" class="btn-submit">Send Gift & Earn Bonus Points</button>
+ 
+        </form>
+      </section>
+ 
+      <!-- ═══════════════════════════════════════════
+           REWARDS / PERKS GRID
+      ═══════════════════════════════════════════ -->
+      <section class="perks-section">
+        <p class="section-label">Redeem Your Points</p>
+        <h2>Rewards You'll Love</h2>
+ 
+        <div class="perks-grid">
+ 
+          <article class="perk-card">
+            <p class="perk-points">100 pts</p>
+            <h3>R10 Off Your Order</h3>
+            <p>Redeem 100 points for R10 off your next purchase. No minimum spend required.</p>
+          </article>
+ 
+          <article class="perk-card">
+            <p class="perk-points">250 pts</p>
+            <h3>Free Cookie Box</h3>
+            <p>
+              Unlock a complimentary box of 6 assorted artisan cookies with your
+              next order.
+            </p>
+          </article>
+ 
+          <article class="perk-card">
+            <p class="perk-points">500 pts</p>
+            <h3>20% Off Any Order</h3>
+            <p>
+              Enjoy a generous 20% discount on your entire order — perfect for
+              large celebrations.
+            </p>
+          </article>
+ 
+          <article class="perk-card">
+            <p class="perk-points">750 pts</p>
+            <h3>Free Delivery + Bonus Treats</h3>
+            <p>
+              Free Cape Town delivery plus two complimentary cupcakes added to
+              your order.
+            </p>
+          </article>
+ 
+          <article class="perk-card">
+            <p class="perk-points">1000 pts</p>
+            <h3>Free Signature Treat Box</h3>
+            <p>
+              A full complimentary Signature Treat Box — our curated assortment of
+              best-sellers, on us.
+            </p>
+          </article>
+ 
+          <article class="perk-card">
+            <p class="perk-points">2000 pts</p>
+            <h3>VIP Custom Cake</h3>
+            <p>
+              A free custom 6-inch celebration cake of your choice. Our most
+              exclusive loyalty reward.
+            </p>
+          </article>
+ 
+        </div>
+      </section>
+ 
+    </main>
+ 
+    <!-- ═══════════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════════ -->
+    <footer>
+      <div class="footer-grid">
+ 
+        <div class="footer-brand">
+          <p class="footer-logo">Chelly's Signature Treats</p>
+          <p>
+            Crafting luxurious cakes and sweet treats with love, using local ingredients,
+            for the Cape Town community since 2022.
+          </p>
+          <p>&copy; 2026 Chelly's Signature Treats. All rights reserved.</p>
+        </div>
+ 
+        <nav aria-label="Footer navigation">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="loyalty.html">Loyalty &amp; Rewards</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+ 
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li>chellyssignaturetreats.co.za</li>
+            <li>Cape Town, Western Cape</li>
+            <li>Mon–Fri: 08:00–17:00</li>
+            <li>Sat: 08:00–14:00</li>
+          </ul>
+        </div>
+ 
+      </div>
+    </footer>
+ 
+    
+  </body>
+</html>
+ 
