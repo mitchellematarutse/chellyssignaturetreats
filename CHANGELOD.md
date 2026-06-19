@@ -98,7 +98,7 @@ optimise image loading.
 -script.js- rebuilt the filter logic so search and category filters work together. 
 typing in the search box filters live, matching against each product’s name and description text 
 
-- Clicking category button stilk works at begire and now respects whatever’s typed in the search box at the same time 
+-Clicking category button stilk works at begire and now respects whatever’s typed in the search box at the same time 
 
 -Aresults counter shows “X treats found” while you are actively searching , if nothing matches, the “no results” message appears with a “clear your search” link that resets everything . The whole category sections (with their headers) hide themselves if every card inside them is filtered out, so you don’t see an empty “!cookies” heading with nothing under it
 
