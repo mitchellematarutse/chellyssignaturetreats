@@ -142,6 +142,10 @@ This phase focused on transforming the HTML foundation into a visually appealing
   This final phase focused on implementing advanced JavaScript functionality, interactive features, and comprehensive enhancements to create a fully functional, user-friendly website experience.
 
 ### Week 10: JavaScript Foundation and Core Features
+*Interactive Navigation Tabs (header-container)
+*Managing active states smoothly across pages or menus without duplicating files 
+*Form Validation (loyalty.html & contact.html) using processing rules inside initialization functions like initGiftForm() or initContactForm()
+*Used JavaScript to dynamically manage product grid.
     
 ### Week 11: Interactive Elements and User Experience
 •Filter buttons (products.html)- clicking “cakes, cupcakes,etc” actually shows/hides products and scrolls to that section
@@ -156,6 +160,19 @@ If you everything’s filled in correctly, you’ll get a thank you alert and th
 •Added a search bar input box above the category filter buttons, plus a hidden “no results” message that appears automatically when nothing matches 
 
 •Implemented smooth scroll animations for enhanced user experience
+
+### Week 12: SEO, Accessibility, and Final Polish
+*Implemented SEO enhancements (meta tags, canonical links, keyword injection)
+*Implemented Meta description
+*Enquiry controls (the gift form on loyalty.html)
+*Enquiry validation
+*Contact controls and contact validation
+
+
+
+*Removed debug styles and polished final code
+- **Part 3 Submission**: 19 November 2025
+
 
 
   ## Phase 1 
