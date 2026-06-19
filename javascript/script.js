@@ -13,27 +13,21 @@ document.addEventListener('DOMContentLoaded', function () {
   highlightActiveNavLink();
 });
  
-/* ─────────────────────────────────────────
-   1. PRODUCT FILTER + LIVE SEARCH (products.html)
-   Combines category filtering and keyword
-   search so both work together. Typing in
-   the search box filters by product name
-   and description; clicking a category
-   button filters by category. Both rules
-   apply at the same time.
-───────────────────────────────────────── */
-let currentCategory = 'all';
-let currentSearchTerm = '';
  
+/* ─────────────────────────────────────────
+   1. PRODUCT FILTER (product.html)
+   Filters product cards by category when a
+   filter button is clicked.
+───────────────────────────────────────── */
 function initProductFilter() {
   const filterButtons = document.querySelectorAll('.filter-btn');
   const productCards = document.querySelectorAll('.product-card');
  
-  if (filterButtons.length === 0 && productCards.length === 0) return;
+  if (filterButtons.length === 0) return;
  
   filterButtons.forEach(function (button) {
     button.addEventListener('click', function () {
-      currentCategory = button.getAttribute('data-filter');
+      const selectedCategory = button.getAttribute('data-filter');
  
       // Update active button styling
       filterButtons.forEach(function (btn) {
@@ -41,112 +35,16 @@ function initProductFilter() {
       });
       button.classList.add('active');
  
-      applyProductFilters();
+      // Show/hide product cards based on category
+      productCards.forEach(function (card) {
+        const cardCategory = card.getAttribute('data-category');
  
-      // If filtering by a specific category (and not searching),
-      // scroll to that section for convenience
-      if (currentCategory !== 'all' && !currentSearchTerm) {
-        const targetSection = document.getElementById(currentCategory);
-        if (targetSection) {
-          targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (selectedCategory === 'all' || cardCategory === selectedCategory) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
         }
-      }
-    });
-  });
- 
-  initProductSearch();
-}
- 
- 
-/* ─────────────────────────────────────────
-   1b. LIVE SEARCH INPUT HANDLER
-───────────────────────────────────────── */
-function initProductSearch() {
-  const searchInput = document.getElementById('product-search');
-  const clearSearchLink = document.getElementById('clear-search-link');
- 
-  if (!searchInput) return;
- 
-  searchInput.addEventListener('input', function () {
-    currentSearchTerm = searchInput.value.trim().toLowerCase();
-    applyProductFilters();
-  });
- 
-  if (clearSearchLink) {
-    clearSearchLink.addEventListener('click', function (event) {
-      event.preventDefault();
-      searchInput.value = '';
-      currentSearchTerm = '';
-      applyProductFilters();
-      searchInput.focus();
-    });
-  }
-}
- 
- 
-/* ─────────────────────────────────────────
-   1c. APPLY COMBINED FILTERS
-   Loops through every product card and shows
-   it only if it matches BOTH the active
-   category and the current search term.
-───────────────────────────────────────── */
-function applyProductFilters() {
-  const productCards = document.querySelectorAll('.product-card');
-  const categorySections = document.querySelectorAll('.product-category-section');
-  const noResultsMessage = document.getElementById('no-results-message');
-  const resultsCount = document.getElementById('search-results-count');
- 
-  let visibleCount = 0;
- 
-  productCards.forEach(function (card) {
-    const cardCategory = card.getAttribute('data-category');
-    const nameElement = card.querySelector('h3');
-    const descElement = card.querySelector('.product-info > p:not(.product-price)');
- 
-    const cardText =
-      (nameElement ? nameElement.textContent : '') +
-      ' ' +
-      (descElement ? descElement.textContent : '');
- 
-    const matchesCategory =
-      currentCategory === 'all' || cardCategory === currentCategory;
- 
-    const matchesSearch =
-      currentSearchTerm === '' ||
-      cardText.toLowerCase().includes(currentSearchTerm);
- 
-    const isVisible = matchesCategory && matchesSearch;
- 
-    card.style.display = isVisible ? '' : 'none';
- 
-    if (isVisible) visibleCount++;
-  });
- 
-  // Hide/show entire category sections when every card inside is hidden
-  categorySections.forEach(function (section) {
-    const visibleCardsInSection = section.querySelectorAll(
-      '.product-card:not([style*="display: none"])'
-    );
-    section.style.display = visibleCardsInSection.length > 0 ? '' : 'none';
-  });
- 
-  // Show "no results" message when nothing matches
-  if (noResultsMessage) {
-    noResultsMessage.hidden = visibleCount !== 0;
-  }
- 
-  // Update results count text (only show while actively searching)
-  if (resultsCount) {
-    if (currentSearchTerm) {
-      resultsCount.textContent =
-        visibleCount === 0
-          ? ''
-          : visibleCount + (visibleCount === 1 ? ' treat found' : ' treats found');
-    } else {
-      resultsCount.textContent = '';
-    }
-  }
-}
+      });
  
       // If filtering by a specific category, scroll to that section
       if (selectedCategory !== 'all') {
@@ -155,6 +53,9 @@ function applyProductFilters() {
           targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
       }
+    });
+  });
+}
  
  
 /* ─────────────────────────────────────────
