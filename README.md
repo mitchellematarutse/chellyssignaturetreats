@@ -128,7 +128,6 @@ This phase focused on transforming the HTML foundation into a visually appealing
 - **Interactive Elements**: Added hover states and focus indicators for user experience
 - **Cross-browser Compatibility**: Ensured consistent appearance across major web browsers
 - **Performance Optimisation**: Created efficient CSS with minimal redundancy
-- 
 
 - ### Technical Specifications:
 - **CSS Framework**: Custom CSS with Grid and Flexbox layouts
@@ -166,14 +165,11 @@ If you everything’s filled in correctly, you’ll get a thank you alert and th
 *Implemented Meta description
 *Enquiry controls (the gift form on loyalty.html)
 *Enquiry validation
-*Contact controls and contact validation
-
-
-
+*Contact controls and contact validatioN
 *Removed debug styles and polished final code
 - **Part 3 Submission**: 19 November 2025
 
-
+Changelog
 
   ## Phase 1 
 -Update index.html
@@ -236,7 +232,40 @@ optimise image loading.
 
 -Use `%` for widths and heights to make elements responsive.
 
+Phase 3
+-Fixed syntax error
 
+-Fixing the syntax error breaking page width
+
+-Changed the grid layout to force a 3-column structure for product cards
+
+-Fixed syntax error in .product-category-section padding rule
+
+-Fix the selector typo (missing dot)
+
+-Grouped navigation links inside a ul block in product.html
+
+-Enabled justify-content: space-between to push navigation to the far right
+
+-Added link to Javascript file using refer in head
+
+-Interactive elements- Filter buttons (products.html)- clicking “cakes, cupcakes,etc” actually shows/hides products and scrolls to that section
+
+-Add to cart buttons- clicking one changes the button next to “Added” for 1,2 seconds then reverts. It also logs to the browser console
+
+-Form submissions (gift form+contact form” typing into the fields and clicking submit triggers real validation. -If you leave a required field empty or type a bad email, you’ll get an alert listing whats writing.
+
+-If you everything’s filled in correctly, you’ll get a thank you alert and the form closes
+
+-Product.html- Added a search bar input box above the category filter buttons, plus a hidden “no results” message that appears automatically when nothing matches
+
+-script.js- rebuilt the filter logic so search and category filters work together. typing in the search box filters live, matching against each product’s name and description text
+
+-Clicking category button stilk works at begire and now respects whatever’s typed in the search box at the same time
+
+-Aresults counter shows “X treats found” while you are actively searching , if nothing matches, the “no results” message appears with a “clear your search” link that resets everything . The whole category sections (with their headers) hide themselves if every card inside them is filtered out, so you don’t see an empty “!cookies” heading with nothing under it
+
+-style.css- styled the search bar with a magnifying glass icon, focus states matching the raspberry brand color and the no-results message styled in the blush background
 
 
 ## Responsiveness Testing and Iteration Across Devices
