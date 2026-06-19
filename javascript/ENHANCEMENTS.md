@@ -4,36 +4,48 @@ This repository was updated to fully comply with the rubric for Interactive Elem
 
 ## What was added/changed
 
--Interactive UI
+## Interactive UI
   -Filter buttons (products.html)- clicking “cakes, cupcakes, etc"
+  
   -Add to cart buttons
+  
   -Form submissions 
 
--Dynamic Content and Search Feature 
-  -products.html — added a search input box right above the category filter buttons
-  -script.js — rebuilt the filter logic so search and category filters work together
-  -style.css — styled the search bar with a magnifying glass icon, focus states matching raspberry brand color, and the no-results message styled in blush background
+## Dynamic Content and Search Feature 
+  -products.html - added a search input box right above the category filter buttons
+  
+  -script.js - rebuilt the filter logic so search and category filters work together
+  
+  -style.css - styled the search bar with a magnifying glass icon, focus states matching raspberry brand color, and the no-results message styled in blush background
 
--SEO
+## SEO
  -Implemented title tags
+ 
  -Implememnted meta keywords and description
+ 
  -Implemented images - FileName and AltText
+ 
  -Social links/icons in footer
 
--Forms & Validation 
- -Enquiry controls (the gift form on loyalty.html) has Full Name, Email, Phone, Delivery Address, a Treat dropdown (<select>), a Personal  -Message (<textarea>), and Sender Name. All have proper <label> tags
+## Forms & Validation 
+ -Enquiry controls (the gift form on loyalty.html) has Full Name, Email, Phone, Delivery Address, a Treat dropdown (<select>), a Personal Message (<textarea>), and Sender Name. All have proper <label> tags
+ 
  -initGiftForm() in script.js checks required fields aren't empty and validates the email format before allowing submission.
+ 
  -JavaScript alert() popup saying "Thank you! Your sweet surprise is on its way" and clears the form
  
 Contact controls (contact.html)
- — Name, Email, Phone, Subject dropdown, and Message, each with labels.
+
+-Name, Email, Phone, Subject dropdown, and Message, each with labels.
  
 Contact validation
+
 -initContactForm() checks required fields and validates email format.
 
 ## Files changed
 
 -js/script.js – tabs, dynamic product loader, SEO helpers, and contact validation/confirmation
+
 -products.html — added a search input box right above the category filter buttons
 
 ## How to test
@@ -46,10 +58,13 @@ Contact validation
 “!cookies”heading with nothing under it
 
 ## Contact page:
+
 -Fill required fields (name, email, phone); pick enquiry.
 
 ## Validation
+
 -HTML/CSS/JS lint recommendations followed; inline warnings resolved.
+
 -Accessibility:
 -Tabs are keyboard navigable
 
