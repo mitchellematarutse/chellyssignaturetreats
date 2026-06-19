@@ -162,35 +162,35 @@ If you everything’s filled in correctly, you’ll get a thank you alert and th
 
 ### Week 12: SEO, Accessibility, and Final Polish
 
-*Implemented SEO enhancements (meta tags, canonical links, keyword injection)
+•Implemented SEO enhancements (meta tags, canonical links, keyword injection)
 
-*Implemented Meta description
+•Implemented Meta description
 
-*Enquiry controls (the gift form on loyalty.html)
+•Enquiry controls (the gift form on loyalty.html)
 
-*Enquiry validation
+•Enquiry validation
 
-*Contact controls and contact validation
+•Contact controls and contact validation
 
-*Removed debug styles and polished final code
+•Removed debug styles and polished final code
 
-*Part 3 Submission**: 19 June 2026
+•Part 3 Submission**: 19 June 2026
 
 ### Key Achievements in Phase 3:
 
- **Interactive searchbar
+ •Interactive searchbar
  
- **Dynamic Content Loading
+ •Dynamic Content Loading
  
- **Enhanced User Experience
+ •Enhanced User Experience
  
- **Form Validation
+ •Form Validation
  
- **SEO Optimisation
+ •SEO Optimisation
  
- **Accessibility
+ •Accessibility
  
- **Performance
+ •Performance
   
 ## Changelog
 
