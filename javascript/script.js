@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 /* ─────────────────────────────────────────
-   1. PRODUCT FILTER + LIVE SEARCH (products.html)
+   1. PRODUCT FILTER + LIVE SEARCH (product.html)
    Combines category filtering and keyword
    search so both work together. Typing in
    the search box filters by product name
